@@ -103,6 +103,12 @@
     background: linear-gradient(135deg, var(--blue) 0%, var(--navy) 100%);
     position: relative; overflow: hidden;
     display: flex; align-items: center; justify-content: center;
+    background-image: url('/assets/hero.jpg');
+    background-size: cover; background-position: center top;
+  }
+  .hero-right::after {
+    content: ''; position: absolute; inset: 0;
+    background: linear-gradient(135deg, rgba(0,51,160,0.7) 0%, rgba(0,31,91,0.75) 100%);
   }
   .hero-right-content { text-align: center; color: white; z-index: 2; position: relative; }
   .hero-right-content .kdi-mark {
